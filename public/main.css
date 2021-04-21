@@ -1,0 +1,62 @@
+body {
+  background-image: url("peak.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 20px;
+  height: 100%;
+  padding: 0px;
+  margin: 0px;
+}
+html {
+  height: 100%;
+  padding: 0px;
+  margin: 0px;
+}
+.tile {
+  margin: 0 auto;
+  width: 1200px;
+  background: rgba(255, 255, 255, 0.85);
+  padding: 20px 40px;
+  box-shadow: rgba(155, 155, 155, 0.5) 0px 5px 15px;
+  margin-bottom: 40px;
+}
+.emoji {
+  font-size: 34px;
+  display: inline-block;
+  width: 50%;
+}
+.nav {
+  display: inline-block;
+  width: 49%;
+  position: relative;
+  top: -3px;
+  text-align: right;
+}
+.nav a {
+  display: inline-block;
+  padding: 5px 10px;
+  text-decoration: none;
+  background-color: #7839FF;
+  color: #ffffff;
+}
+.nav a:hover {
+  background-color: #D817AF;
+}
+.tile a.link {
+  color: #D817AF;
+}
+.tile a.link:hover {
+  text-decoration: none;
+}
+.icon-link {
+  text-decoration: none;
+}
+.grey-text {
+  color: #858585;
+}
+.top-space {
+   height: 40px;
+   display: inline-block;
+}
